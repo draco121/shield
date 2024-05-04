@@ -1,4 +1,4 @@
-module github.com/draco121/authenticationservice
+module shield
 
 go 1.22.2
 
