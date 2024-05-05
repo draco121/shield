@@ -1,12 +1,12 @@
 package controllers
 
 import (
-	"github.com/draco121/common/constants"
+	"github.com/draco121/horizon/constants"
 	"go.mongodb.org/mongo-driver/bson/primitive"
 	"net/http"
 
-	"github.com/draco121/authenticationservice/core"
-	"github.com/draco121/common/models"
+	"github.com/draco121/horizon/models"
+	"shield/core"
 
 	"github.com/gin-gonic/gin"
 )

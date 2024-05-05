@@ -2,13 +2,13 @@ package core
 
 import (
 	"context"
-	"github.com/draco121/authenticationservice/repository"
-	"github.com/draco121/common/constants"
-	"github.com/draco121/common/models"
+	"github.com/draco121/horizon/constants"
+	"github.com/draco121/horizon/models"
 	"go.mongodb.org/mongo-driver/bson/primitive"
 	"go.mongodb.org/mongo-driver/mongo"
+	"shield/repository"
 
-	"github.com/draco121/common/utils"
+	"github.com/draco121/horizon/utils"
 )
 
 type IUserService interface {

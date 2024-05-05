@@ -1,15 +1,15 @@
 package main
 
 import (
-	"github.com/draco121/common/utils"
+	"github.com/draco121/horizon/utils"
 	"os"
 
-	"github.com/draco121/authenticationservice/controllers"
-	"github.com/draco121/authenticationservice/core"
-	"github.com/draco121/authenticationservice/repository"
-	"github.com/draco121/authenticationservice/routes"
+	"shield/controllers"
+	"shield/core"
+	"shield/repository"
+	"shield/routes"
 
-	"github.com/draco121/common/database"
+	"github.com/draco121/horizon/database"
 
 	"github.com/gin-gonic/gin"
 	"github.com/joho/godotenv"

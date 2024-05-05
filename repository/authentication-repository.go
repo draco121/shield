@@ -5,7 +5,7 @@ import (
 	"errors"
 	"time"
 
-	"github.com/draco121/common/models"
+	"github.com/draco121/horizon/models"
 
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/bson/primitive"

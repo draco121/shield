@@ -6,11 +6,11 @@ import (
 	"go.mongodb.org/mongo-driver/mongo"
 	"time"
 
-	"github.com/draco121/authenticationservice/repository"
-	"github.com/draco121/common/jwt"
-	"github.com/draco121/common/models"
-	"github.com/draco121/common/utils"
+	"github.com/draco121/horizon/jwt"
+	"github.com/draco121/horizon/models"
+	"github.com/draco121/horizon/utils"
 	"go.mongodb.org/mongo-driver/bson/primitive"
+	"shield/repository"
 )
 
 type IAuthenticationService interface {

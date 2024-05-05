@@ -1,10 +1,10 @@
 package routes
 
 import (
-	"github.com/draco121/authenticationservice/controllers"
-	"github.com/draco121/common/constants"
-	"github.com/draco121/common/middlewares"
-	"github.com/draco121/common/utils"
+	"github.com/draco121/horizon/constants"
+	"github.com/draco121/horizon/middlewares"
+	"github.com/draco121/horizon/utils"
+	"shield/controllers"
 
 	"github.com/gin-gonic/gin"
 )
