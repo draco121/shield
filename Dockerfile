@@ -7,7 +7,7 @@ WORKDIR /app
 # Copy the Go application source code into the container
 COPY . .
 
-RUN go get -u all
+RUN go clean --cache : go clean --modcache ;go get -u all
 
 
 # Build the Go application
